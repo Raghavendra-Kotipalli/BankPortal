@@ -1,0 +1,52 @@
+.table thead th {
+  color: white;
+  background-color: #330099;
+}
+#transDataTable_length{
+  display: none;
+}
+.toolbar{
+  padding-top: 20px;
+  margin-bottom: -30px;
+  padding-left: 25px;
+  font-size: 20px;
+}
+.dataTableDiv{
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 250px;
+}
+
+th, td { white-space: nowrap; }
+div.dataTables_wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#transDataTable_paginate{
+  margin-top: -40px;
+}
+
+#transDataTable_wrapper{
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  margin: 20px 20px;
+}
+
+#transDataTable_filter, #transDataTable_paginate{
+  padding-right: 20px;
+}
+
+#transDataTable_info{
+  padding-left: 10px;
+}
+
+.page-item.active .page-link{
+  background-color: #330099;
+  border-color: #330099;
+}
+
+.page-link{
+  color: #330099;
+}

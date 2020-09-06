@@ -1,0 +1,130 @@
+ul {
+  list-style-type: none;
+}
+ul li{
+  padding: 15px 0px 15px 20px;
+}
+#sidebar{
+  border-radius: 20px;
+}
+
+.profile{
+  display: inline-flex;
+  padding-top: 30px;
+}
+.logo{
+  width: auto; 
+  height: 50px !important; 
+}
+.companyName {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 25px;
+}
+.menuItem{
+  font-size: 14px;
+  color: #330099;
+  font-weight: 600;
+}
+.menuOption .active{
+  color:white;
+  background-color: #330099;
+  border-radius: 10px;
+}
+#sidebar li:hover{
+  color:white;
+  background-color: #330099;
+  border-radius: 10px;
+}
+#sidebar li:hover span.menuItem {
+  color:white;
+}
+.menuOption .active .menuItem{
+  color:white;
+}
+.menuIcon{
+  color:black;
+  font-size: 18px;
+  padding-right: 5px;
+}
+.menuOption .active span.menuIcon {
+  color: white;
+}
+#sidebar li:hover span.menuIcon {
+  color:white;
+}
+
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.sideBarMenu{
+  margin-left: 30px;
+  display: none;
+}
+
+.menuBar{
+  padding:20px 20px;
+}
+
+.marqueeBar{
+  padding-top: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  .sideBarMenu{
+    display: block;
+    right: 15px;
+    position: absolute;
+  }
+
+  #sidebar{
+    display: none;
+  }
+  .balanceBox{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding-right: 0px;
+  }
+
+  .textScroll{
+    border-radius: 0px !important;
+  }
+
+  .menuBar{
+    padding:0px 20px 10px 20px !important;
+  }
+
+  .marqueeBar{
+    padding-top: 0px !important;
+  }
+
+  .toolbar{
+    margin-bottom: 0px !important;
+  }
+  #transDataTable_filter label{
+    float: right !important;
+  }
+
+  #transDataTable_paginate .pagination{
+    margin-top: 30px !important;
+  }
+}
